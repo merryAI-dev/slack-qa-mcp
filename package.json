@@ -4,6 +4,16 @@
   "description": "MCP server for Slack channel QA management with Slack Lists API support",
   "type": "module",
   "main": "dist/index.js",
+  "bin": {
+    "slack-qa-mcp": "dist/index.js"
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "keywords": ["mcp", "slack", "qa", "slack-lists", "bug-tracking"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/merryAI-dev/slack-qa-mcp"
+  },
+  "license": "MIT",
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
